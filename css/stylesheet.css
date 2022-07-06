@@ -1,0 +1,37 @@
+
+:root{
+
+
+
+
+--bg-dark-main: #1f1e1e;
+--bg-light-main: #fefefe;
+--accent-color-main: #050a30;
+--dark-blue: #0C2D48;
+--section-padding: 1rem;
+--bg-black: #111;
+
+
+
+}
+
+
+body{
+  background-color: var(--bg-light-main);
+}
+
+.full-hero{
+  height: 100vh;
+  width: 100%;
+  background-color: var(--accent-color-main);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  /* background-image: url(../js/gallery/gallery13.jpg); */
+
+}
+
+.hero-inner{
+  position: relative;
+  top: 40%;
+}
